@@ -1,0 +1,43 @@
+nav {
+    width: 1519px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    background: rgb(89, 88, 115);
+    background: linear-gradient(124deg, rgba(89, 88, 115, 1) 0%, rgba(24, 71, 142, 1) 14%, rgba(29, 25, 147, 1) 37%, rgba(24, 147, 180, 1) 71%, rgba(0, 212, 255, 1) 100%);
+}
+
+.nav_link__wp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.nav_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.nav_link:focus{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+.nav__logo{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 50%;
+}

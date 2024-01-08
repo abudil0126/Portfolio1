@@ -1,0 +1,21 @@
+.contact__wp{
+    width: 100%;
+    max-width: 1519px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+}
+
+.contact2{
+    font-weight: 600;
+    font-size: larger;
+    padding-left: 560px;
+    padding-top: 30px;
+    line-height: 40px;
+}
+
+.copyright{
+    padding-left: 660px;
+    margin-top: 30px;
+}
